@@ -39,6 +39,7 @@ public class MainServlet extends HttpServlet {
 		Conta c = dao.getConta(numConta);
 		
 		String nome = c.getNome();
+		
 
 		String usuario = c.getUsuario();
 
